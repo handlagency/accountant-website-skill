@@ -31,8 +31,6 @@ Default to the `stage` layout: a cinematic background plate, one finance object 
 
 The firm's own team photos go in the sections below the hero. Never hotlink media you don't have the rights to, and never use stock photos of handshakes or calculators.
 
-Never hotlink media you don't have the rights to, and never use stock photos of handshakes or calculators.
-
 ## 4. Build
 Run `python3 scripts/build.py brief.json site/`. It writes `site/index.html` (one file, no build step, opens anywhere) and prints the SEO checks. Fix every failed check in the brief and build again.
 

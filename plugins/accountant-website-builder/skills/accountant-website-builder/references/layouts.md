@@ -1,6 +1,6 @@
 # Layouts
 
-All three share the same sections: fixed nav with the main button, hero, moving services strip, "what working with us looks like" (stats and three service cards), three steps with a media panel, a closing line with the main button, and a footer.
+Every layout shares the same sections: fixed nav with the main button, hero, moving services strip, "what working with us looks like" (stats and three service cards), three steps with a media panel, a closing line with the main button, and a footer.
 
 | Layout | Hero | Best for | Mood |
 |---|---|---|---|
