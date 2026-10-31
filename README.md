@@ -17,7 +17,7 @@ Most accountancy websites open with "Welcome to Smith & Co". Nobody searches for
 
 ### Claude Code (plugin)
 ```
-/plugin marketplace add __OWNER__/accountant-website-skill
+/plugin marketplace add handlagency/accountant-website-skill
 /plugin install accountant-website-builder@handl
 ```
 
