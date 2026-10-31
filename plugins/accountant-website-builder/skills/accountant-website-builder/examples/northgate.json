@@ -2,10 +2,10 @@
   "slug": "northgate",
   "name": "Northgate",
   "tag": "Contractor accountants, London",
-  "variant": "full",
+  "variant": "stage",
   "bg": "#0B0D12",
   "ink": "#F2F4F8",
-  "muted": "#9AA3B2",
+  "muted": "#A9B0BD",
   "accent": "#C9A86A",
   "card": "#151A24",
   "cardInk": "#F2F4F8",
@@ -78,11 +78,44 @@
   "closer": "Built for the way you get paid.",
   "service": "Contractor accountants",
   "town": "London",
-  "video": null,
-  "second": null,
-  "glow": [
-    "#C9A86A",
-    "#5A3E1F",
-    "#E6D3A8"
-  ]
+  "video": "../assets/scenes/ribbon-plate.jpg",
+  "second": "../assets/scenes/ribbon-plate.jpg",
+  "theme": "dark",
+  "scene": {
+    "plate": "../assets/scenes/hummingbird-plate.jpg",
+    "echo": "London",
+    "particles": "gold",
+    "colors": [
+      "#E9C77B",
+      "#FFF1C9",
+      "#C9A86A"
+    ],
+    "shade": "rgba(11,13,18,.78)",
+    "glass": "rgba(24,26,32,.5)",
+    "layers": [
+      {
+        "src": "../assets/scenes/hummingbird-subject.png",
+        "left": 44.64,
+        "top": 27.96,
+        "width": 27.86,
+        "motion": "hover",
+        "shine": true
+      }
+    ],
+    "panel": [
+      [
+        "IR35 review",
+        "within 24h"
+      ],
+      [
+        "Fee",
+        "fixed monthly"
+      ],
+      [
+        "Support",
+        "all year"
+      ]
+    ],
+    "panel_title": "For contractors"
+  }
 }

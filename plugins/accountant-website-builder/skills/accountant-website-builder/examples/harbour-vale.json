@@ -2,12 +2,12 @@
   "slug": "harbour-vale",
   "name": "Harbour &amp; Vale",
   "tag": "Tax advisers, Southampton",
-  "variant": "full",
-  "bg": "#14111F",
-  "ink": "#FBF7F2",
-  "muted": "#C9BFD6",
+  "variant": "stage",
+  "bg": "#F6EEF2",
+  "ink": "#2A2140",
+  "muted": "#5F5672",
   "accent": "#F2B8A0",
-  "card": "#221C33",
+  "card": "#2A2140",
   "cardInk": "#FBF7F2",
   "display": "Fraunces",
   "body": "Inter",
@@ -78,11 +78,39 @@
   "closer": "Sleep well on 31 January.",
   "service": "Tax returns",
   "town": "Southampton",
-  "video": null,
-  "second": null,
-  "glow": [
-    "#F2B8A0",
-    "#8E76C9",
-    "#3D3366"
-  ]
+  "video": "../assets/scenes/boat-plate.jpg",
+  "second": "../assets/scenes/boat-plate.jpg",
+  "theme": "light",
+  "scene": {
+    "plate": "../assets/scenes/boat-plate.jpg",
+    "echo": "Calm",
+    "particles": "mist",
+    "shade": "rgba(246,238,242,.55)",
+    "glass": "rgba(255,255,255,.45)",
+    "layers": [
+      {
+        "src": "../assets/scenes/boat-subject.png",
+        "left": 51.04,
+        "top": 37.69,
+        "width": 39.9,
+        "motion": "rock",
+        "shine": false
+      }
+    ],
+    "panel": [
+      [
+        "Filed by",
+        "31 October"
+      ],
+      [
+        "Chasing",
+        "done for you"
+      ],
+      [
+        "January",
+        "no panic"
+      ]
+    ],
+    "panel_title": "Self assessment"
+  }
 }

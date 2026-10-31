@@ -23,11 +23,13 @@ Write `brief.json` using `references/brief.md`. Copy the closest file in `exampl
 - `stats` are things the firm actually promises (reply time, check-ins a year). **Never invent client results, reviews or awards.**
 - Pick the layout with `references/layouts.md`.
 
-## 3. Media
-In order of preference:
-1. The firm's own photos or video. Faces of the real team beat anything else (see `references/finance-rules.md`).
-2. Video or images the user has the rights to use (their own stock licence, or a generator they've used).
-3. None: set `video` to `null` and the page uses an animated gradient built from `glow`. It's designed to look finished, not empty.
+## 3. The hero scene (what makes it stand out)
+Default to the `stage` layout: a cinematic background plate, one finance object that moves (it glides, hovers, floats, spins or flows), particles, a giant echo word behind it for depth, mouse parallax, and the object flies down the page as the visitor scrolls. Build the scene with `references/scenes.md`:
+1. Pick a finance object that fits the firm (coins, an origami crane folded from banknote-style paper, a gold bird, glass parcels, a tax-form paper boat, a chrome ribbon). Ready-made scenes are in `assets/scenes/`.
+2. For a new scene, generate one still with an image model (prompt formula in `scenes.md`), cut the object out, and ask the model for the same image with the object removed (the plate).
+3. Set the motion, particles and echo word in `brief.json`.
+
+The firm's own team photos go in the sections below the hero. Never hotlink media you don't have the rights to, and never use stock photos of handshakes or calculators.
 
 Never hotlink media you don't have the rights to, and never use stock photos of handshakes or calculators.
 
@@ -46,9 +48,11 @@ Give the user:
 
 ## Files
 - `references/brief.md`: every field in `brief.json`.
-- `references/layouts.md`: the three layouts and when to use each.
+- `references/layouts.md`: the layouts and when to use each.
+- `references/scenes.md`: how to build an animated hero scene, the motion types, and the image prompts.
+- `assets/scenes/`: six ready-made finance scenes (plates and cut-out objects).
 - `references/finance-rules.md`: the SEO and conversion rules for finance firm websites.
 - `references/review.md`: the scoring rubric for step 5.
 - `examples/*.json`: six finished briefs (accountants, bookkeepers, contractor accountants, e-commerce bookkeeping, tax returns, payroll).
-- `scripts/build.py`: renders the page and runs the SEO checks.
+- `scripts/build.py` and `scripts/stage.py`: render the page (copying media next to it) and run the SEO checks.
 - `scripts/shoot.py`: desktop and mobile screenshots for the review.

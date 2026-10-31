@@ -2,7 +2,7 @@
   "slug": "meridian",
   "name": "Meridian",
   "tag": "Payroll bureau, Manchester",
-  "variant": "split",
+  "variant": "stage",
   "bg": "#05070D",
   "ink": "#EAF1FF",
   "muted": "#8C9AB8",
@@ -81,11 +81,44 @@
   ],
   "service": "Payroll",
   "town": "Manchester",
-  "video": null,
-  "second": null,
-  "glow": [
-    "#4DA3FF",
-    "#1B3FA0",
-    "#0A1A3A"
-  ]
+  "video": "../assets/scenes/hummingbird-plate.jpg",
+  "second": "../assets/scenes/hummingbird-plate.jpg",
+  "theme": "dark",
+  "scene": {
+    "plate": "../assets/scenes/ribbon-plate.jpg",
+    "echo": "Payroll",
+    "particles": "sparkle",
+    "colors": [
+      "#7CC4FF",
+      "#C9E6FF",
+      "#4DA3FF"
+    ],
+    "shade": "rgba(5,7,13,.78)",
+    "glass": "rgba(12,20,36,.5)",
+    "layers": [
+      {
+        "src": "../assets/scenes/ribbon-subject.png",
+        "left": 46.2,
+        "top": 0.0,
+        "width": 53.8,
+        "motion": "flow",
+        "shine": true
+      }
+    ],
+    "panel": [
+      [
+        "RTI filed",
+        "on time"
+      ],
+      [
+        "Payroll manager",
+        "named"
+      ],
+      [
+        "Switch-over",
+        "2 weeks"
+      ]
+    ],
+    "panel_title": "Every payday"
+  }
 }

@@ -2,10 +2,10 @@
   "slug": "ledgerly",
   "name": "Ledgerly",
   "tag": "Bookkeeping, Hampshire",
-  "variant": "card",
-  "bg": "#F5F5F5",
-  "ink": "#111111",
-  "muted": "#5F5F66",
+  "variant": "stage",
+  "bg": "#F1EFF6",
+  "ink": "#17141F",
+  "muted": "#5D586B",
   "accent": "#111111",
   "card": "#2B2644",
   "cardInk": "#FFFFFF",
@@ -77,11 +77,158 @@
   "closer": "Clean books. Every single week.",
   "service": "Bookkeeping",
   "town": "Hampshire",
-  "video": null,
-  "second": null,
-  "glow": [
-    "#A79BE8",
-    "#E9C7E0",
-    "#C8D3F7"
-  ]
+  "video": "../assets/scenes/crane-plate.jpg",
+  "second": "../assets/scenes/crane-plate.jpg",
+  "theme": "light",
+  "scene": {
+    "plate": "../assets/scenes/lavender-plate.jpg",
+    "echo": "Hampshire",
+    "particles": "dust",
+    "colors": [
+      "#FFFFFF",
+      "#E8E2F7"
+    ],
+    "shade": "rgba(239,237,246,.8)",
+    "glass": "rgba(255,255,255,.5)",
+    "panel": [
+      [
+        "Books reconciled",
+        "weekly"
+      ],
+      [
+        "Report",
+        "every Monday"
+      ],
+      [
+        "Receipts",
+        "by photo"
+      ]
+    ],
+    "panel_title": "Every week",
+    "coins": {
+      "src": "../assets/scenes/coin.png",
+      "items": [
+        [
+          60,
+          22,
+          12,
+          10,
+          0.0,
+          0,
+          3.4,
+          18,
+          -4,
+          40
+        ],
+        [
+          74,
+          12,
+          10,
+          11,
+          1.4,
+          0,
+          4.1,
+          -22,
+          3,
+          -30
+        ],
+        [
+          53,
+          30,
+          8,
+          9,
+          2.6,
+          1.2,
+          2.9,
+          30,
+          -2,
+          25
+        ],
+        [
+          83,
+          24,
+          14,
+          12,
+          3.9,
+          0,
+          3.8,
+          12,
+          -5,
+          -20
+        ],
+        [
+          68,
+          36,
+          6,
+          9.5,
+          5.2,
+          2.5,
+          2.6,
+          -35,
+          2,
+          50
+        ],
+        [
+          90,
+          8,
+          7,
+          12.5,
+          6.6,
+          1.8,
+          3.1,
+          24,
+          -3,
+          -35
+        ],
+        [
+          57,
+          6,
+          11,
+          11.5,
+          7.8,
+          0,
+          4.6,
+          -15,
+          4,
+          15
+        ],
+        [
+          79,
+          30,
+          9,
+          10.5,
+          8.9,
+          0.8,
+          3.3,
+          28,
+          -2,
+          -25
+        ],
+        [
+          65,
+          14,
+          7,
+          12,
+          9.7,
+          2.0,
+          2.7,
+          -28,
+          3,
+          30
+        ],
+        [
+          87,
+          38,
+          11,
+          10,
+          4.6,
+          0,
+          3.9,
+          16,
+          -4,
+          20
+        ]
+      ]
+    }
+  }
 }

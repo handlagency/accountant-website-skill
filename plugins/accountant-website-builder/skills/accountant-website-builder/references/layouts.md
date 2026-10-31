@@ -4,6 +4,7 @@ All three share the same sections: fixed nav with the main button, hero, moving 
 
 | Layout | Hero | Best for | Mood |
 |---|---|---|---|
+| `stage` (default) | Full-screen cinematic scene: plate, animated finance object, particles, echo word, glass info panel. The object flies down the page on scroll | Every firm that wants to stand out | Premium, cinematic, memorable |
 | `split` | Headline left, tall rounded media panel right, two stats under the button | Traditional practices, partners who want to look established | Calm, considered, serif headings |
 | `card` | Full-width rounded media card, headline over the left of it | Bookkeepers and modern firms with one strong image or video | Clean, bright, product-like |
 | `full` | Edge-to-edge media, headline bottom left over a dark fade | Niche firms with a big promise (contractors, tax, payroll) | Bold, cinematic, dark |

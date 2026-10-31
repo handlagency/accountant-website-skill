@@ -2,7 +2,7 @@
   "slug": "clearpath",
   "name": "Clearpath",
   "tag": "Bookkeeping for online sellers",
-  "variant": "card",
+  "variant": "stage",
   "bg": "#F7F9FC",
   "ink": "#0E1B2E",
   "muted": "#56657A",
@@ -78,11 +78,55 @@
   "closer": "Know your margin on every order.",
   "service": "E-commerce bookkeeping",
   "town": "UK",
-  "video": null,
-  "second": null,
-  "glow": [
-    "#1E5BFF",
-    "#7FB2FF",
-    "#BFD4FF"
-  ]
+  "video": "../assets/scenes/parcels-plate.jpg",
+  "second": "../assets/scenes/parcels-plate.jpg",
+  "theme": "light",
+  "scene": {
+    "plate": "../assets/scenes/parcels-plate.jpg",
+    "echo": "Online",
+    "particles": "receipts",
+    "shade": "rgba(247,249,252,.82)",
+    "glass": "rgba(255,255,255,.6)",
+    "layers": [
+      {
+        "src": "../assets/scenes/parcel-0.png",
+        "left": 67,
+        "top": 43,
+        "width": 20.05,
+        "motion": "float",
+        "shine": true
+      },
+      {
+        "src": "../assets/scenes/parcel-1.png",
+        "left": 55.73,
+        "top": 32.04,
+        "width": 17.92,
+        "motion": "float",
+        "shine": true
+      },
+      {
+        "src": "../assets/scenes/parcel-2.png",
+        "left": 69.69,
+        "top": 15.19,
+        "width": 15.78,
+        "motion": "float",
+        "shine": true
+      }
+    ],
+    "panel": [
+      [
+        "Payouts matched",
+        "nightly"
+      ],
+      [
+        "Marketplaces",
+        "one ledger"
+      ],
+      [
+        "P&amp;L",
+        "by the 5th"
+      ]
+    ],
+    "panel_title": "Every order"
+  }
 }

@@ -2,10 +2,10 @@
   "slug": "fenwick-lowe",
   "name": "Fenwick &amp; Lowe",
   "tag": "Chartered accountants, Bristol",
-  "variant": "split",
+  "variant": "stage",
   "bg": "#F4F1F8",
   "ink": "#1E1A2E",
-  "muted": "#6B6580",
+  "muted": "#5E5873",
   "accent": "#5B4B9A",
   "card": "#2B2644",
   "cardInk": "#F4F1F8",
@@ -79,11 +79,44 @@
   "closer": "Know where you stand, every month.",
   "service": "Accountants",
   "town": "Bristol",
-  "video": null,
-  "second": null,
-  "glow": [
-    "#8B78D8",
-    "#E7B8D6",
-    "#C9BDF2"
-  ]
+  "video": "../assets/scenes/lavender-plate.jpg",
+  "second": "../assets/scenes/lavender-plate.jpg",
+  "theme": "light",
+  "scene": {
+    "plate": "../assets/scenes/crane-plate.jpg",
+    "echo": "Bristol",
+    "particles": "petals",
+    "colors": [
+      "#C9B6F0",
+      "#E9C7E0",
+      "#FFFFFF"
+    ],
+    "shade": "rgba(244,241,248,.82)",
+    "glass": "rgba(255,255,255,.55)",
+    "layers": [
+      {
+        "src": "../assets/scenes/crane-subject.png",
+        "left": 43.02,
+        "top": 10.46,
+        "width": 52.66,
+        "motion": "glide",
+        "shine": true
+      }
+    ],
+    "panel": [
+      [
+        "Same accountant",
+        "every call"
+      ],
+      [
+        "Replies",
+        "within 48 hours"
+      ],
+      [
+        "Check-ins",
+        "12 a year"
+      ]
+    ],
+    "panel_title": "Working with us"
+  }
 }

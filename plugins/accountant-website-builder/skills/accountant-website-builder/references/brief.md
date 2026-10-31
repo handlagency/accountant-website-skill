@@ -10,7 +10,9 @@ Copy the closest file in `../examples/` and edit it. Every field is required unl
 | `town` | Town, city or county | `Bristol` |
 | `title` (optional) | Page title, 65 characters max. Defaults to "[service] in [town] \| [name]" | |
 | `tag` (optional) | Small text next to the logo. Defaults to "[service], [town]" | `Chartered accountants, Bristol` |
-| `variant` | Layout: `split`, `card` or `full` (see layouts.md) | `split` |
+| `variant` | Layout: `stage` (default), `split`, `card` or `full` (see layouts.md) | `stage` |
+| `theme` | `light` or `dark` (sets the nav style) | `light` |
+| `scene` | The animated hero scene, see scenes.md | |
 | `video`, `second` | Hero media and second-section media: a video or image path/URL, or `null` for the animated gradient | `null` |
 | `glow` | Three colours for the gradient | `["#8B78D8","#E7B8D6","#C9BDF2"]` |
 | `bg`, `ink`, `muted`, `accent`, `card`, `cardInk` | Page background, text, secondary text, accent, card background, card text | |

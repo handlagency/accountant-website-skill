@@ -9,6 +9,9 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+from stage import STAGE_CSS, STAGE_JS, stage_hero  # noqa: E402
+
 ARROW = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>'
 MARK = '<svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><rect x="3" y="3" width="26" height="26" rx="8" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M10 20.5l4-5 3 3 5-7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>'
 ICONS = [
@@ -36,6 +39,8 @@ def hero(s):
     v = s["variant"]
     btns = f'<div class="btns rise" style="--d:.5s"><a class="btn" href="#start">{s["cta"]}<span class="btn-dot">{ARROW}</span></a><a class="link" href="#prices">{s["cta2"]}</a></div>'
     words = f'<p class="eyebrow rise" style="--d:.05s">{s["eyebrow"]}</p><h1 class="display rise" style="--d:.15s">{s["h1"]}</h1><p class="sub rise" style="--d:.35s">{s["sub"]}</p>{btns}'
+    if v == "stage":
+        return stage_hero(s, words)
     if v == "card":
         return f'<section class="hero hero-card"><div class="hcard">{video(s["video"], "bgv")}<div class="hcard-shade"></div><div class="hcard-in">{words}</div><div class="chip rise" style="--d:.8s"><span class="pulse"></span>Taking new clients for November</div></div></section>'
     if v == "full":
@@ -46,7 +51,7 @@ def hero(s):
 
 
 def page(s):
-    light = s["variant"] != "full" and s["bg"].upper() not in ("#05070D",)
+    light = s.get("theme") != "dark" and s["variant"] != "full" and s["bg"].upper() not in ("#05070D",)
     nav_cls = "nav glass" if not light else "nav"
     marquee = "".join(f"<span>{m}</span><i></i>" for m in s["marquee"]) * 2
     stats = "".join(
@@ -172,6 +177,7 @@ footer{{padding:40px 0 50px;color:var(--muted);font-size:14px;display:flex;justi
 :focus-visible{{outline:2px solid var(--accent);outline-offset:3px}}
 @media (max-width:900px){{.nav ul{{display:none}}.hero-split,.intro,.how,.svcs,.stats{{grid-template-columns:1fr}}.split-r{{height:60vh}}}}
 @media (prefers-reduced-motion:reduce){{*{{animation:none!important;transition:none!important}}.rise,.reveal{{opacity:1;transform:none;filter:none}}}}
+{STAGE_CSS if s['variant'] == 'stage' else ''}
 </style>
 </head>
 <body>
@@ -208,6 +214,7 @@ const count=el=>{{const end=+el.dataset.count,suf=el.dataset.suffix||'',t0=perfo
 const co=new IntersectionObserver(es=>es.forEach(e=>{{if(e.isIntersecting){{count(e.target);co.unobserve(e.target)}}}}),{{threshold:.5}});
 document.querySelectorAll('[data-count]').forEach(el=>co.observe(el));
 document.querySelectorAll('video').forEach(v=>v.play().catch(()=>{{}}));
+{STAGE_JS if s['variant'] == 'stage' else ''}
 </script>
 </body>
 </html>
@@ -240,6 +247,26 @@ def main():
     s.setdefault("title", f'{s["service"]} in {s["town"]} | {s["name"].replace("&amp;", "&")}')
     s.setdefault("tag", f'{s["service"]}, {s["town"]}')
     out.mkdir(parents=True, exist_ok=True)
+    # copy every local media file the brief points at into out/assets, so the site is self-contained
+    import shutil
+    def local(ref):
+        if not ref or re.match(r"^(https?:|data:)", ref):
+            return ref
+        src = (brief.parent / ref).resolve()
+        (out / "assets").mkdir(exist_ok=True)
+        shutil.copy2(src, out / "assets" / src.name)
+        return f"assets/{src.name}"
+    for k in ("video", "second"):
+        s[k] = local(s.get(k))
+    sc = s.get("scene")
+    if sc:
+        sc["plate"] = local(sc["plate"])
+        for L in sc.get("layers", []):
+            L["src"] = local(L["src"])
+        if sc.get("coins"):
+            sc["coins"]["src"] = local(sc["coins"]["src"])
+        if sc.get("wings"):
+            sc["wings"]["l"], sc["wings"]["r"] = local(sc["wings"]["l"]), local(sc["wings"]["r"])
     (out / "index.html").write_text(page(s))
     print("built", out / "index.html")
     issues = check(s)
