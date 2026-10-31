@@ -1,0 +1,89 @@
+{
+  "slug": "fenwick-lowe",
+  "name": "Fenwick &amp; Lowe",
+  "tag": "Chartered accountants, Bristol",
+  "variant": "split",
+  "bg": "#F4F1F8",
+  "ink": "#1E1A2E",
+  "muted": "#6B6580",
+  "accent": "#5B4B9A",
+  "card": "#2B2644",
+  "cardInk": "#F4F1F8",
+  "display": "Fraunces",
+  "body": "Inter",
+  "dweight": "400",
+  "dstyle": "letter-spacing:-0.035em;",
+  "eyebrow": "Accountants for owner-managed businesses",
+  "h1": "Accountants in Bristol,<br>finally on your side.",
+  "sub": "Year-end accounts, tax and a monthly call with the same accountant, for Bristol businesses that want to hear from us before the bill lands.",
+  "cta": "Get a fixed quote",
+  "cta2": "See our prices",
+  "nav": [
+    "Services",
+    "Prices",
+    "About",
+    "Insights"
+  ],
+  "marquee": [
+    "Year-end accounts",
+    "Self assessment",
+    "Corporation tax",
+    "VAT returns",
+    "Payroll",
+    "Making Tax Digital",
+    "Management accounts"
+  ],
+  "stats": [
+    [
+      "1",
+      "accountant, every call"
+    ],
+    [
+      "48",
+      "hour reply promise",
+      "h"
+    ],
+    [
+      "12",
+      "check-ins a year"
+    ]
+  ],
+  "services": [
+    [
+      "Year-end, done early",
+      "Accounts filed weeks before the deadline, with a plain-English summary of what changed."
+    ],
+    [
+      "Tax you can plan for",
+      "We tell you what's coming a month before it's due. No surprises in January."
+    ],
+    [
+      "A monthly call",
+      "Fifteen minutes on the numbers that matter, booked in for the whole year."
+    ]
+  ],
+  "steps": [
+    [
+      "Tell us about the business",
+      "A 20-minute call. No forms first."
+    ],
+    [
+      "Get a fixed monthly price",
+      "In writing, before you commit."
+    ],
+    [
+      "Hear from us every month",
+      "Same person, every time."
+    ]
+  ],
+  "closer": "Know where you stand, every month.",
+  "service": "Accountants",
+  "town": "Bristol",
+  "video": null,
+  "second": null,
+  "glow": [
+    "#8B78D8",
+    "#E7B8D6",
+    "#C9BDF2"
+  ]
+}

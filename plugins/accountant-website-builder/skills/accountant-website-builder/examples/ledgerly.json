@@ -1,0 +1,87 @@
+{
+  "slug": "ledgerly",
+  "name": "Ledgerly",
+  "tag": "Bookkeeping, Hampshire",
+  "variant": "card",
+  "bg": "#F5F5F5",
+  "ink": "#111111",
+  "muted": "#5F5F66",
+  "accent": "#111111",
+  "card": "#2B2644",
+  "cardInk": "#FFFFFF",
+  "display": "Inter Tight",
+  "body": "Inter",
+  "dweight": "500",
+  "dstyle": "letter-spacing:-0.045em;",
+  "eyebrow": "Bookkeeping for Hampshire businesses",
+  "h1": "Hampshire bookkeeping,<br>balanced by Friday.",
+  "sub": "Receipts in, reconciled and reported every week, with a one-page update every Monday. You run the business, we keep it tidy.",
+  "cta": "Book a free review",
+  "cta2": "How it works",
+  "nav": [
+    "Bookkeeping",
+    "Payroll",
+    "VAT",
+    "Pricing"
+  ],
+  "marquee": [
+    "Weekly reconciliations",
+    "Receipt capture",
+    "VAT returns",
+    "Payroll",
+    "Credit control",
+    "Month-end reports"
+  ],
+  "stats": [
+    [
+      "7",
+      "day turnaround"
+    ],
+    [
+      "0",
+      "shoeboxes of receipts"
+    ],
+    [
+      "1",
+      "report every Monday"
+    ]
+  ],
+  "services": [
+    [
+      "Every week, not every quarter",
+      "Your bank is reconciled weekly, so the numbers are always current."
+    ],
+    [
+      "Receipts by photo",
+      "Snap it, send it, forget it. We match it to the transaction."
+    ],
+    [
+      "A Monday report",
+      "Cash in, cash out and what's owed, on one page."
+    ]
+  ],
+  "steps": [
+    [
+      "Connect your bank",
+      "Read-only, two minutes."
+    ],
+    [
+      "We tidy the backlog",
+      "Whatever state it's in."
+    ],
+    [
+      "Weekly from then on",
+      "Clean books, every Friday."
+    ]
+  ],
+  "closer": "Clean books. Every single week.",
+  "service": "Bookkeeping",
+  "town": "Hampshire",
+  "video": null,
+  "second": null,
+  "glow": [
+    "#A79BE8",
+    "#E9C7E0",
+    "#C8D3F7"
+  ]
+}

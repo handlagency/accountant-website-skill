@@ -1,0 +1,91 @@
+{
+  "slug": "meridian",
+  "name": "Meridian",
+  "tag": "Payroll bureau, Manchester",
+  "variant": "split",
+  "bg": "#05070D",
+  "ink": "#EAF1FF",
+  "muted": "#8C9AB8",
+  "accent": "#4DA3FF",
+  "card": "#0C1424",
+  "cardInk": "#EAF1FF",
+  "display": "Space Grotesk",
+  "body": "Inter",
+  "dweight": "500",
+  "dstyle": "letter-spacing:-0.04em;",
+  "eyebrow": "Payroll for growing teams",
+  "h1": "Payroll in Manchester<br>that runs itself.",
+  "sub": "Payslips, pensions and RTI filed on time every month for Manchester employers, with a named payroll manager you can actually ring.",
+  "cta": "Price my payroll",
+  "cta2": "Switching guide",
+  "nav": [
+    "Payroll",
+    "Pensions",
+    "Switching",
+    "Pricing"
+  ],
+  "marquee": [
+    "Monthly payroll",
+    "Auto-enrolment",
+    "RTI submissions",
+    "P11D",
+    "Starters and leavers",
+    "Holiday pay"
+  ],
+  "stats": [
+    [
+      "0",
+      "late RTI filings"
+    ],
+    [
+      "1",
+      "named payroll manager"
+    ],
+    [
+      "2",
+      "week switch-over"
+    ]
+  ],
+  "services": [
+    [
+      "On time, every time",
+      "Payslips out and RTI filed before the deadline, every single month."
+    ],
+    [
+      "Pensions handled",
+      "Auto-enrolment, opt-outs and re-enrolment, all done for you."
+    ],
+    [
+      "A person, not a portal",
+      "Your own payroll manager, on the phone the same day."
+    ]
+  ],
+  "steps": [
+    [
+      "Send last month's payslips",
+      "That's all we need."
+    ],
+    [
+      "We run a parallel month",
+      "Checked against yours."
+    ],
+    [
+      "Switch over",
+      "Nobody notices but you."
+    ]
+  ],
+  "closer": "One less thing to think about on the 25th.",
+  "float": [
+    "Payroll submitted",
+    "RTI filed, 24 October"
+  ],
+  "service": "Payroll",
+  "town": "Manchester",
+  "video": null,
+  "second": null,
+  "glow": [
+    "#4DA3FF",
+    "#1B3FA0",
+    "#0A1A3A"
+  ]
+}

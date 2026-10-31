@@ -1,0 +1,15 @@
+{
+  "name": "handl",
+  "description": "Free Claude skills from HandL Agency for accountancy and bookkeeping firms.",
+  "owner": { "name": "HandL Agency", "url": "https://handlagency.com" },
+  "plugins": [
+    {
+      "name": "accountant-website-builder",
+      "source": "./plugins/accountant-website-builder",
+      "description": "Build a cinematic homepage for an accountancy or bookkeeping firm that ranks for [service] in [town] and turns visitors into enquiries.",
+      "author": { "name": "HandL Agency" },
+      "homepage": "https://handlagency.com",
+      "category": "design"
+    }
+  ]
+}

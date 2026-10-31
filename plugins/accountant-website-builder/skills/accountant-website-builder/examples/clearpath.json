@@ -1,0 +1,88 @@
+{
+  "slug": "clearpath",
+  "name": "Clearpath",
+  "tag": "Bookkeeping for online sellers",
+  "variant": "card",
+  "bg": "#F7F9FC",
+  "ink": "#0E1B2E",
+  "muted": "#56657A",
+  "accent": "#1E5BFF",
+  "card": "#0E1B2E",
+  "cardInk": "#FFFFFF",
+  "display": "Manrope",
+  "body": "Manrope",
+  "dweight": "700",
+  "dstyle": "letter-spacing:-0.045em;",
+  "eyebrow": "Bookkeeping for e-commerce sellers",
+  "h1": "E-commerce bookkeeping<br>across the UK.",
+  "sub": "Shopify, Amazon and Etsy payouts matched to your bank every night, with VAT handled across every marketplace you sell on.",
+  "cta": "See it on your store",
+  "cta2": "Pricing",
+  "nav": [
+    "Sellers",
+    "Marketplaces",
+    "VAT",
+    "Pricing"
+  ],
+  "marquee": [
+    "Payout matching",
+    "Marketplace VAT",
+    "Stock accounting",
+    "Fees and refunds",
+    "Multi-currency",
+    "Monthly P&amp;L"
+  ],
+  "stats": [
+    [
+      "100",
+      "% of payouts matched",
+      "%"
+    ],
+    [
+      "3",
+      "marketplaces, one ledger"
+    ],
+    [
+      "1",
+      "P&amp;L by the 5th"
+    ]
+  ],
+  "services": [
+    [
+      "Payouts, untangled",
+      "Fees, refunds and chargebacks split out from every payout automatically."
+    ],
+    [
+      "VAT across borders",
+      "OSS, IOSS and UK VAT handled for every sale, wherever it ships."
+    ],
+    [
+      "Margin by product",
+      "See which products actually make you money, not just which ones sell."
+    ]
+  ],
+  "steps": [
+    [
+      "Connect your stores",
+      "Read-only access."
+    ],
+    [
+      "We clean the history",
+      "Back to the start of the year."
+    ],
+    [
+      "Nightly from then on",
+      "Reconciled while you sleep."
+    ]
+  ],
+  "closer": "Know your margin on every order.",
+  "service": "E-commerce bookkeeping",
+  "town": "UK",
+  "video": null,
+  "second": null,
+  "glow": [
+    "#1E5BFF",
+    "#7FB2FF",
+    "#BFD4FF"
+  ]
+}

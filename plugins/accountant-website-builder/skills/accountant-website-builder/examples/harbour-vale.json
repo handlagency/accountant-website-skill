@@ -1,0 +1,88 @@
+{
+  "slug": "harbour-vale",
+  "name": "Harbour &amp; Vale",
+  "tag": "Tax advisers, Southampton",
+  "variant": "full",
+  "bg": "#14111F",
+  "ink": "#FBF7F2",
+  "muted": "#C9BFD6",
+  "accent": "#F2B8A0",
+  "card": "#221C33",
+  "cardInk": "#FBF7F2",
+  "display": "Fraunces",
+  "body": "Inter",
+  "dweight": "300",
+  "dstyle": "letter-spacing:-0.03em;",
+  "eyebrow": "Tax returns for busy people",
+  "h1": "Tax returns in Southampton,<br>without the dread.",
+  "sub": "Self assessment done in October, not the night before 31 January. Send us the paperwork once and we will chase the rest for you.",
+  "cta": "Start my return",
+  "cta2": "What we need",
+  "nav": [
+    "Self assessment",
+    "Landlords",
+    "Directors",
+    "Prices"
+  ],
+  "marquee": [
+    "Self assessment",
+    "Landlords",
+    "Company directors",
+    "Capital gains",
+    "Payments on account",
+    "HMRC letters"
+  ],
+  "stats": [
+    [
+      "31",
+      "October, done by",
+      ""
+    ],
+    [
+      "1",
+      "list of what we need"
+    ],
+    [
+      "0",
+      "January panic"
+    ]
+  ],
+  "services": [
+    [
+      "Done in the autumn",
+      "We file early, so you know the bill months before it's due."
+    ],
+    [
+      "We do the chasing",
+      "One checklist, reminders sent for you, nothing missed."
+    ],
+    [
+      "Payments on account, explained",
+      "In plain English, before HMRC's letter arrives."
+    ]
+  ],
+  "steps": [
+    [
+      "Upload what you have",
+      "Photos are fine."
+    ],
+    [
+      "We fill the gaps",
+      "And tell you what's missing."
+    ],
+    [
+      "You approve, we file",
+      "Weeks early."
+    ]
+  ],
+  "closer": "Sleep well on 31 January.",
+  "service": "Tax returns",
+  "town": "Southampton",
+  "video": null,
+  "second": null,
+  "glow": [
+    "#F2B8A0",
+    "#8E76C9",
+    "#3D3366"
+  ]
+}

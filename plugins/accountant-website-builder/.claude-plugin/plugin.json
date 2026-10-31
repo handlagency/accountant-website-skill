@@ -1,0 +1,7 @@
+{
+  "name": "accountant-website-builder",
+  "version": "1.0.0",
+  "description": "Build a cinematic homepage for an accountancy or bookkeeping firm that ranks for [service] in [town] and turns visitors into enquiries.",
+  "author": { "name": "HandL Agency", "url": "https://handlagency.com" },
+  "license": "MIT"
+}

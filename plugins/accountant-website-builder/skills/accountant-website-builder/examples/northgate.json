@@ -1,0 +1,88 @@
+{
+  "slug": "northgate",
+  "name": "Northgate",
+  "tag": "Contractor accountants, London",
+  "variant": "full",
+  "bg": "#0B0D12",
+  "ink": "#F2F4F8",
+  "muted": "#9AA3B2",
+  "accent": "#C9A86A",
+  "card": "#151A24",
+  "cardInk": "#F2F4F8",
+  "display": "Instrument Serif",
+  "body": "Inter",
+  "dweight": "400",
+  "dstyle": "letter-spacing:-0.02em;",
+  "eyebrow": "Accountants for London contractors",
+  "h1": "Contractor accountants<br>in London.",
+  "sub": "IR35 reviews, limited company accounts and a tax plan built around how you actually get paid, from one fixed monthly fee.",
+  "cta": "Check my IR35 status",
+  "cta2": "Our fees",
+  "nav": [
+    "Contractors",
+    "IR35",
+    "Fees",
+    "Guides"
+  ],
+  "marquee": [
+    "IR35 reviews",
+    "Limited company accounts",
+    "Dividends planning",
+    "Self assessment",
+    "Pension contributions",
+    "Company formation"
+  ],
+  "stats": [
+    [
+      "24",
+      "hour IR35 turnaround",
+      "h"
+    ],
+    [
+      "1",
+      "fixed monthly fee"
+    ],
+    [
+      "365",
+      "days of support"
+    ]
+  ],
+  "services": [
+    [
+      "IR35, reviewed properly",
+      "Every contract checked before you sign, with the reasons in writing."
+    ],
+    [
+      "Pay yourself well",
+      "Salary, dividends and pension set up the efficient way, every year."
+    ],
+    [
+      "Between contracts",
+      "We plan the gaps too, so a quiet month doesn't become a tax problem."
+    ]
+  ],
+  "steps": [
+    [
+      "Send us the contract",
+      "We review it the same week."
+    ],
+    [
+      "Set up the company",
+      "Or move yours over."
+    ],
+    [
+      "A plan for the year",
+      "Updated every quarter."
+    ]
+  ],
+  "closer": "Built for the way you get paid.",
+  "service": "Contractor accountants",
+  "town": "London",
+  "video": null,
+  "second": null,
+  "glow": [
+    "#C9A86A",
+    "#5A3E1F",
+    "#E6D3A8"
+  ]
+}
